@@ -10,7 +10,6 @@ export const modalWindow = {
         modal.style.opacity = '0'
       }
     })
-
     const modalsWrap = document.querySelector('[data-modals]')
     const modalItem = document.querySelector(`[data-modal="${item}"]`)
 
@@ -55,7 +54,6 @@ export const modalWindow = {
     }
 
     document.body.style.paddingRight = ''
-    console.log(1)
     document.body.classList.remove('overflow-hidden')
   },
 }
